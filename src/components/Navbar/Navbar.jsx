@@ -3,7 +3,7 @@ import { Link, useOutletContext } from "react-router-dom";
 import MenuIcon from '@mui/icons-material/Menu';
 import Brightness3Icon from '@mui/icons-material/Brightness3';
 import Brightness1Icon from '@mui/icons-material/Brightness1';
-import { ThemeContext } from '../../theme/ThemeContext';
+import { ThemeContext } from '../../ThemeContext';
 import { useContext } from 'react';
 
 export default function Navbar() {

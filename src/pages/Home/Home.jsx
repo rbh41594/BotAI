@@ -7,7 +7,7 @@ import { useEffect, useRef, useState } from 'react';
 import data from '../../../public/data.json'
 import { useOutletContext } from "react-router-dom";
 import Navbar from '../../components/Navbar/Navbar';
-import { ThemeContext } from '../../theme/ThemeContext';
+import { ThemeContext } from '../../ThemeContext';
 import { useContext } from 'react';
 
 export default function Home() {
