@@ -1,10 +1,10 @@
 import { Outlet } from 'react-router-dom';
-import { ThemeContext } from './theme/themeContext';
+import { ThemeContext } from './ThemeContext';
 import { useState, useEffect, useMemo } from 'react';
 import Sidebar from './components/Sidebar/Sidebar';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-import { getThemePallete } from './theme/ThemePalette';
+import { getThemePallete } from './ThemePalette';
 import { Grid } from '@mui/material';
 import './App.css';
 

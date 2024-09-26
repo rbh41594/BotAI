@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import { ThemeContext } from "../../theme/ThemeContext"
+import { ThemeContext } from "../../ThemeContext"
 import { Typography, Box, Stack, Button, useMediaQuery } from '@mui/material'
 import icon from '../../assets/newchat.png'
 import { Link } from 'react-router-dom'

@@ -1,5 +1,3 @@
-import { BorderColor } from "@mui/icons-material";
-
 export const getThemePallete = (mode) => ({
     palette: {
         mode,
