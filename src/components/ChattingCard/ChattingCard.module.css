@@ -1,0 +1,36 @@
+.cardContainer {
+    padding: 8px 16px; 
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; 
+    display: flex;
+    flex-direction: row;
+    gap: 16px; 
+    transition: background-color 0.3s ease-in; 
+}
+
+.avatar {
+    height: 68px; 
+    width: 68px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    flex-shrink: 0; 
+}
+
+.name {
+    font-size: 16px; 
+}
+
+.messageText {
+    font-size: 14px;
+}
+
+.feedbackBtns {
+    visibility: hidden; 
+    opacity: 0; 
+    transition: opacity 400ms ease; 
+}
+
+.cardContainer:hover .feedbackBtns {
+    visibility: visible; 
+    opacity: 1; 
+}

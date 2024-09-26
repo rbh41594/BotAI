@@ -1,0 +1,36 @@
+.chatInputContainer {
+    flex-shrink: 0;
+    padding: 0.5rem 24px; 
+    padding-bottom: 12px; 
+}
+
+.inputField {
+    flex: 1;
+    background-color: var(--mui-palette-primary-light);
+    border-radius: 8px; 
+    font-size: 16px; 
+    padding: 8px 16px; 
+}
+
+.inputField::input {
+    font-size: 16px; 
+}
+
+.askButton,
+.saveButton {
+    font-size: 16px;
+    min-width: 0; 
+    padding: 8px 16px; 
+}
+
+@media (max-width: 767px) {
+    .inputField {
+        font-size: 12px;
+        padding: 4px 8px; 
+    }
+    .askButton,
+    .saveButton {
+        font-size: 12px;
+        padding: 4px 8px; 
+    }
+}

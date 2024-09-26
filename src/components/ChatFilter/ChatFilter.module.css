@@ -1,0 +1,18 @@
+.chatFilterContainer {
+    margin-bottom: 24px; 
+}
+
+.filterLabel {
+    font-size: 12px; 
+    margin-bottom: 4px; 
+}
+
+.selectMenu {
+    min-width: 100%; 
+}
+
+@media (min-width: 600px) {
+    .selectMenu {
+        min-width: 160px; 
+    }
+}
